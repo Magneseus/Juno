@@ -42,8 +42,8 @@ public class PlayerScript : MonoBehaviour
         // Process movement
         if(moveVector.x != 0.0f || moveVector.y != 0.0f)
 		{
-			this.rigidbody.drag = 0f;
-            this.rigidbody.velocity = moveVector * moveSpeed * Time.deltaTime;
+			rigidbody.drag = 0f;
+            rigidbody.velocity = moveVector * moveSpeed * Time.deltaTime;
         }
 		else
 		{
