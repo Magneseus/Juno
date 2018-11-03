@@ -48,7 +48,7 @@ public class PlayerScript : MonoBehaviour {
         // Process fire
         if(fire) {
             GameObject bullet = (GameObject)Instantiate(bulletPrefab, transform.position + transform.right, transform.rotation);
-            bullet.rigidbody.AddForce(transform.right * bulletSpeed, ForceMode.VelocityChange);
+            bullet.GetComponent<Rigidbody>().AddForce(transform.right * bulletSpeed, ForceMode.VelocityChange);
         }
     }
 }
