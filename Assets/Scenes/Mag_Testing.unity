@@ -202,6 +202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91128ea156d8f1841867306dcb73e11d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minCamSpeed: 0.001
+  lerpSpeed: 0.1
 --- !u!1001 &211124409
 Prefab:
   m_ObjectHideFlags: 0
@@ -758,7 +760,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4040693944976020, guid: b4e5962d2e2be3847891217fcfe79c17, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 4040693944976020, guid: b4e5962d2e2be3847891217fcfe79c17, type: 2}
       propertyPath: m_LocalPosition.y
