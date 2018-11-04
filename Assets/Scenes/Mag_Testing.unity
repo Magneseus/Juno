@@ -155,14 +155,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 2
     width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -430,6 +430,11 @@ Prefab:
       propertyPath: playerId
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114526147809725824, guid: b4e5962d2e2be3847891217fcfe79c17,
+        type: 2}
+      propertyPath: isKBM
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4e5962d2e2be3847891217fcfe79c17, type: 2}
   m_IsPrefabAsset: 0
@@ -555,6 +560,11 @@ Prefab:
         type: 2}
       propertyPath: playerId
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526147809725824, guid: b4e5962d2e2be3847891217fcfe79c17,
+        type: 2}
+      propertyPath: isKBM
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4e5962d2e2be3847891217fcfe79c17, type: 2}
@@ -1487,6 +1497,11 @@ Prefab:
         type: 2}
       propertyPath: playerId
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526147809725824, guid: b4e5962d2e2be3847891217fcfe79c17,
+        type: 2}
+      propertyPath: isKBM
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4e5962d2e2be3847891217fcfe79c17, type: 2}
