@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CameraBounding : MonoBehaviour
 {
-	public float minCamSpeed = 0.001f;
+	public float minCamSpeed = 0.1f;
 	public float lerpSpeed = 0.1f;
 	public float camZoomSpeed = 0.1f;
 	public float minPadding = 2f;
-	public float maxPadding = 15f;
+	public float maxPadding = 10f;
 	
 	private Camera cam;
 	private GameObject[] players;
