@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 58085563667497674}
   m_Layer: 0
   m_Name: Zomboid
-  m_TagString: Untagged
+  m_TagString: Boid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,7 +86,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 2
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e89c29a09d12574dbc1292a1938dc74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weight: 0.75
 --- !u!114 &114946014600342034
 MonoBehaviour:
   m_ObjectHideFlags: 1
